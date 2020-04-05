@@ -1,0 +1,58 @@
+.mark {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid transparent;
+}
+
+.mark:before {
+	content: "";
+	display: none;
+	position: absolute;
+	top:50%;
+	left: 25%;
+	height: 4px;
+	width: 8px;
+	border: solid black;
+	border-width: 0 0 4px 4px;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}/*draw √*/
+
+.cb:checked~ .mark:before {
+    display: block;
+}
+
+.cb:checked~ .con {
+    text-decoration: line-through;
+}
+
+.detailPage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #FAD8B0;
+}
+
+.cb {
+	margin: 0px;
+	width: 1vw;
+}
+
+.mark {
+	border: 0px;
+}
+
+.itemImage {
+	width: 20%;
+	max-height: 20%;
+}
+
+p {
+	max-width: 50%;
+}
+

@@ -1,0 +1,30 @@
+.homepage {
+	display: flex;
+	flex-direction: column;
+	background: #FAD8B0;
+	min-height: 75%;
+}
+
+.img {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	max-width: 30%;
+	max-height: 100%;
+	min-height: 80%;
+	min-width: 30%;
+}
+
+
+@media screen and (max-width: 600px) {
+  	.logo {
+    	display: flex;
+    	justify-content: center;
+  	}
+}
+
+@media screen and (min-width: 600px) {
+	.logo {
+		display: flex;
+		justify-content: center;
+	}
+}

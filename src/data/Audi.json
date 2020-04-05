@@ -1,0 +1,56 @@
+[
+    {
+        "id": "A7",
+        "Mode": "A7",
+        "Price": [
+            "Start From $69,000"
+        ],
+        "Features":[
+            "335 hp/369 lb-ft of torque",
+            "3.0-liter TFSI® V6",
+            "quattro® technology"
+        ],
+        "image":{
+            "_url": "https://www.kbb.com/articles/wp-content/uploads/make/audi/a7/2019/sportback/2019-audi-a7.jpg?w=768",
+            "_height": "600",
+            "_width": "1000"
+        }
+    },
+
+    {
+        "id": "S5",
+        "Mode": "S5",
+        "Price": [
+            "Start From $51,900"
+        ],
+        "Features":[
+            "349 hp/369 lb-ft of torque",
+            "Twin-scroll turbocharged",
+            "3.0-liter TFSI® V6",
+            "quattro® all-wheel drive"
+        ],
+        "image":{
+            "_url": "https://audimediacenter-a.akamaihd.net/system/production/media/76356/images/61eb3e092d6aa016c62a881b178faf039873112a/A194297_full.jpg?1582509567",
+            "_height": "600",
+            "_width": "1000"
+        }
+    },
+
+    {
+        "id": "Q7",
+        "Mode": "Q7",
+        "Price": [
+            "Start From $54,800"
+        ],
+        "Features":[
+            "248 hp/273 lb-ft of torque",
+            "2.0-liter TFSI®",
+            "quattro® all-wheel drive"
+           ],
+        "image":{
+            "_url": "https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/wp-content/uploads/2017/08/2017-audi-q7.jpg?crop=1.00xw:0.919xh;0,0.0812xh&resize=1200:*",
+            "_height": "600",
+            "_width": "1000"
+        }
+    }
+]

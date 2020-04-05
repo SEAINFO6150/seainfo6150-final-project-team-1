@@ -1,0 +1,52 @@
+[
+    {
+        "id": "440i",
+        "Mode": "440i",
+        "Price": [
+            "Start From $51,350"
+        ],
+        "Features":[
+            "320 hp",
+            "0-60 mph: 4.8s"
+        ],
+        "image":{
+            "_url": "https://www.bmwusa.com/content/dam/bmwusa/4Series/2020/model-detail-430i-440i/BMW-MY20-4Series-Coupe-DP-Feature-01.jpg.bmwimg.xlarge.jpg",
+            "_height": "600",
+            "_width": "1000"
+        }
+    },
+
+    {
+        "id": "M5",
+        "Mode": "M5",
+        "Price": [
+            "Start From $ 102,700"
+        ],
+        "Features":[
+            "617 hp",
+            "0-60 mph: 3.2sec"
+        ],
+        "image":{
+            "_url": "https://cache.bmwusa.com/cosy.arox?pov=walkaround&client=byo&vehicle=205R&paint=P0C1K&brand=WBBM&sa=S01MA,S01MA,S02FQ,S0302,S0316,S0322,S03AG,S0465,S0552,S05AC,S0776,S07M9,S07MA&RESP=PNG&quality=90&width=900&sharpness=100&BKGND=TRANSPARENT&angle=30",
+            "_height": "600",
+            "_width": "1000"
+        }
+    },
+
+    {
+        "id": "X6",
+        "Mode": "X6",
+        "Price": [
+            "Start From $64,300"
+        ],
+        "Features":[
+            "335 hp",
+            "0-60 mph: 5.2sec"
+           ],
+        "image":{
+            "_url": "https://www.bmwusa.com/content/dam/bmwusa/XModels/myu-x6-2020/overview/desktop/BMW-MY20-X6-Overview-Luxury-02.jpg",
+            "_height": "600",
+            "_width": "1000"
+        }
+    }
+]

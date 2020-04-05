@@ -1,0 +1,52 @@
+[
+    {
+        "id": "CLS",
+        "Mode": "CLS",
+        "Price": [
+            "Start From $69,950"
+        ],
+        "Features":[
+            "362 hp/369 lb-ft of torque",
+            "3.0L inline-6 turbo with EQ Boost"
+        ],
+        "image":{
+            "_url": "https://mediaserver.mbusa.com/proxy/mbusa/2020/cls450c?client=mb&brand=mbusa&resp=err_status%2Cpng&quality=90&vehicle=2020_cls450c&pov=e01%2Ccgd&paint=2_040&sa=0_11r%2Cnoglints%2Cshadow&width=1536&height=640&w=6407&h=4678&x=1929&y=2612&bkgnd=transparent",
+            "_height": "600",
+            "_width": "1000"
+        }
+    },
+
+    {
+        "id": "SLC",
+        "Mode": "SLC",
+        "Price": [
+            "Start From $49,950"
+        ],
+        "Features":[
+            "241 hp/273 lb-ft of torque",
+            "Engine 2.0L inline-4 turbo"
+        ],
+        "image":{
+            "_url": "https://mediaserver.mbusa.com/proxy/mbusa/2020/slc300r?client=mb&brand=mbusa&resp=err_status%2Cpng&quality=90&vehicle=2020_slc300r&pov=e01%2Ccgd&paint=2_040&fabric=4_101&sa=0_r35%2C0_h74%2Cnoglints%2Cshadow&width=1536&height=640&w=6407&h=4678&x=1929&y=2612&bkgnd=transparent",
+            "_height": "600",
+            "_width": "1000"
+        }
+    },
+
+    {
+        "id": "GLE",
+        "Mode": "GLE",
+        "Price": [
+            "Start From $71,350"
+        ],
+        "Features":[
+            "385 hp/384 lb-ft of torque",
+            "AMG-enhanced 3.0L V6 biturbo"
+           ],
+        "image":{
+            "_url": "https://mediaserver.mbusa.com/proxy/mbusa/2019/gle43c4?client=mb&brand=mbusa&resp=err_status%2Cpng&quality=90&vehicle=2019_gle43c4&pov=e01%2Crt&paint=2_040&sa=0_684%2Cnoglints%2Cshadow&width=1536&height=640&w=7200&h=4678&x=1600&y=2213&bkgnd=transparent",
+            "_height": "600",
+            "_width": "1000"
+        }
+    }
+]
