@@ -6,9 +6,9 @@ const MercedesDetails = require('../data/Mercedes.json');
 
 export const Detail = ({item, back}) => {
 
-    const ingredients = [];
-    for(const [index,value] of item.ingredients.entries()){
-        ingredients.push(
+    const Price = [];
+    for(const [index,value] of item.Price.entries()){
+        Price.push(
         <li key={index}>
             <label>
                 <input type="checkbox" className={styles.cb}/>
@@ -17,10 +17,10 @@ export const Detail = ({item, back}) => {
             </label>
         </li>);}
 
-    const instructions = [];
+    const Features = [];
 
-    for(const [index, value] of item.directions.entries()){
-        instructions.push(
+    for(const [index, value] of item.Features.entries()){
+        Features.push(
         <li key={index}>
             <label>
                 <input type="checkbox" className={styles.cb}/>
@@ -35,10 +35,10 @@ export const Detail = ({item, back}) => {
             <div className={styles.detailPage}>
                 <h4>{item.name}</h4>
                 <img className={styles.itemImage} src={item.image._url} alt={item.name}/>
-                <h5>Ingredients</h5>
-                <p>{ingredients}</p>
-                <h5>Instructions</h5>
-                <p>{instructions}</p>
+                <h5>Price</h5>
+                <p>{Price}</p>
+                <h5>Features</h5>
+                <p>{Features}</p>
             </div>
         </div>
     );
@@ -49,7 +49,7 @@ const Analyse = (props) =>{
         const item = AudiDetails.find(f => f.id === props.info);
         return <Detail item={item} back={props.individual}/>
     }
-    if (props.individual === "BMWCourse"){
+    if (props.individual === "BMW"){
         const item = BMWDetails.find(f => f.id === props.info);
         return <Detail item={item} back={props.individual}/>
     }

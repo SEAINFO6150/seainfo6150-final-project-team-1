@@ -25,7 +25,7 @@ class AddRecipe extends React.Component {
 
 	render () {
 		return (
-			<div id={styles.add_recipe_page}>
+			<div id={styles.add_vehicle_page}>
 				<h3>Add Your Favorite Vehicles Here !!!</h3>
 				<form className={styles.add_form} onSubmit={this.handleSubmit}>
 					<ul className={styles.form_item}>

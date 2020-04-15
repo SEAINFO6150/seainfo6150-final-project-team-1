@@ -6,13 +6,13 @@
 	width: 50%;
 }
 
-#add_recipe_page {
+#add_vehicle_page {
 	display: flex;
 	flex-direction: column;
-	background: #FAD8B0;
+	background: #EBCFC4;
 	align-items: center;
 	min-height: 75%;
-	color: white;
+	color: black;
 }
 
 .to_send {
@@ -44,6 +44,6 @@ select {
 
 .form_item li {
 	margin-top: 1vh;
-	color: white;
+	color: black;
 }
 

@@ -1,20 +1,20 @@
-.recipePage {
+.vehiclePage {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background: #FAD8B0;
-	color: white;
+	background: #EBCFC4;
+	color: black;
 	min-height: 75%;
 }
 
-.allRecipes {
+.allVehicles {
 	display: grid;
 	column-gap: 2em;
 	row-gap: 2em;
 	font-size: 1em;
 }
 
-.individualRecipe {
+.individualVehicle {
 	display: flex;
 	flex-direction: column;
 	align-items: center;

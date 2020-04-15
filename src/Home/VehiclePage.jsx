@@ -29,7 +29,7 @@ const IndividualPage = (props) => {
 	if (props.individual === "Audi"){
 		return <VehiclePage head={props.individual} paras={AudiDetails}/>
 	}
-	if (props.individual === "BMWCourse"){
+	if (props.individual === "BMW"){
 		return <VehiclePage head={props.individual} paras={BMWDetails}/>
 	}
 	if (props.individual === "Mercedes"){
